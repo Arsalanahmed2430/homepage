@@ -1,0 +1,285 @@
+/* body{
+    margin: 0px;
+}
+.header{
+display: flex;
+flex-direction: column;
+}
+
+.heading{
+
+    border: solid red 1px ;
+height:60px;
+background-color: blue;
+}
+.image{
+display: flex;
+flex-wrap: wrap;
+    position: absolute;
+    top:10px;
+    left:40px;
+}
+
+.btn{
+    position: absolute;
+    right:10px;
+
+top: 10px;} */
+body{
+    margin: 0px;
+    
+}
+*{
+    font-family: forte;
+}
+.main{
+  background-color: blue;
+    display: flex;
+
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.home{
+    background-color: royalblue;
+    outline: none;
+border-radius: 10px;
+padding: 10px;
+color:white;
+border: none;
+}
+
+.one{
+    color:silver;
+margin-top: 10px;
+margin-left:20px;
+}
+.two{
+    
+    color: white;
+    
+}
+.three{
+margin-top: 10px;
+
+}
+.btun{
+
+    height:30px;
+}
+.nav{
+display: flex;
+background-color: whitesmoke;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.dropdown{
+
+    margin-top: 10px;
+margin-left: 300px;
+
+}
+#dropdownMenu2{
+    
+background-color: inherit;
+border-radius: 20px;
+outline: none;
+border: none;
+}
+.dropdown1,.dropdown2{
+    
+    margin-top: 10px;
+}
+.dropdown3{
+    margin-top: 10px;
+}
+#dropdownMenu2:hover{
+    background-color: royalblue;
+}
+.btn btn-outline-primary{
+    background-color: yellow;
+}
+.marquee{
+    background-color: royalblue;
+    width:90%;
+    margin-top: 10px;
+margin-left:30px;
+margin-right: 20px;
+}
+.middle{
+
+    font-family: 'Times New Roman', Times, serif;
+font-size: 2em;
+    background-color:whitesmoke;
+}
+.text{
+    margin-left:100px;
+    margin-right:100px;
+    text-align: justify;
+    font-size: 20px;  
+}
+
+        .count{
+
+            background-color: blue;
+        display: flex;
+        flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+    }
+        .n1,.n2,.n3,.n4{
+            margin-left:50px;
+width:250px;        
+line-height: 40px;
+        }
+
+        .img1{
+            margin-top: 30px;
+            width:50px;
+            margin-left:100px;
+        }
+        .img2{
+            margin-top: 30px;
+            width:50px;
+            margin-left:100px;
+        }
+        .img3{
+
+            width:50px;
+            margin-top: 30px;
+            
+            margin-left:100px;
+        }
+        .img4{
+            margin-top: 30px;
+            width:50px;
+                        margin-left:100px;
+        }
+
+        .contenair{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+            background-color: whitesmoke;
+        }
+        .im1,.im2,.im3,.im4,.im5,.im6{
+    background-color: white;
+box-shadow:silver 5px 5px 5px 5px;
+    margin-top: 20px;   
+            width:350px;
+        }
+
+        .text2{
+            
+line-height: 2px;
+            margin-top: 40px;
+        margin-left: 35px;
+        }
+
+
+        .missoin{
+        
+            display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+   
+    }
+        .hp1,.hs2,.up3,.it4,.tp5{
+width:350px;
+box-shadow: silver 2px 4px 3px 2px;
+margin-top: 20px;
+margin-left: 50px;
+
+background-color:white;
+        }
+
+        .up3{
+            border-color: white;        
+        }
+.hp1,.hs2,.it4,.tp5{
+    margin-top: 10px;
+    height:100px;
+}
+
+.gallery{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.imgf1,.imgf2,.imgf3,.imgf4,.imgf5{
+width:250px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+margin-top:100px;
+    background-color: darkslategray;
+}
+.head{
+    margin-left: 30px;
+    line-height: 20px;
+}
+.user{
+    margin-top: 20px;
+    line-height: 10px;
+    margin-left: 350px;
+}
+ul{
+    list-style: none;
+}
+.fb1{    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.fb2{    
+    margin-top: 10px;
+    }   
+.fb3{    
+    margin-top: 10px;
+    
+}
+.fb4{    
+    margin-top: 10px;
+    }
+    .efoot{
+    background-color: royalblue;
+color: white;   
+}
+    .top{
+        position: fixed;
+        bottom:10px;
+        margin-left:800px;   
+    }
+
+    .footer{
+        background-color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    }
+
+    
+   
+    .use1{
+        margin-top: 10px;
+line-height: 10px;
+            width:270px;
+            margin-left: 210px;
+    }
+    .connect{
+        margin-left: 200px;
+        width: 160px;
+    }
+    
+    
+    .efoot{
+        height:50px;
+    }
